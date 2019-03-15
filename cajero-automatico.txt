@@ -1,24 +1,23 @@
 CLASES
+MAIN
 1. CLIENTE
 	datos > nombre / apellido / dni / clave / cuentas
 	crearcliente
 	consultar saldo REF (dni)
 	depositar (monto) REF
 	retirar REF
-	
 2. CAJERO
 	login (dni / clave)
 	monto
 	crearcuenta (REF) 
 	consultar saldo (REF)
-	depositar 
+	depositar
 	retirar
 	voucher MSJ
 3. CUENTA
 	moneda S D
-	monto 0 
+	monto 0
 	crearcuenta (monto / moneda / dni)
 	consultar saldo (dni)
 	depositar (monto / dni)
 	retirar	(monto / dni)
-	
