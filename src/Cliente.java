@@ -8,15 +8,15 @@ public class Cliente {
 	
 	String nombre = "";
 	String apellido = "";
-	int dni = "";
-	int clave ="";
+	int dni ;
+	int clave;
 	Cuenta c1 = null;
 	
 	public Cliente(){
 		nombre = "GAY RAhit";
 		String apellido = "Doblemente gay";
-		int dni = "12345678";
-		int clave ="134";
+		int dni = 1234567;
+		int clave =134;
 		Cuenta c1;
 	}
 	public Cliente(String n, String a, int d, int c, Cuenta cu){
@@ -27,14 +27,14 @@ public class Cliente {
 		this.c1  = cu;
 	}
 	
-	public void consultar_Saldo(int dni) {
-		c1.consultarSaldo(dni);
+	public void consultar_Saldo() {
+		c1.consultarSaldo();
 	}
-	public void depositar(int dni, int monto) {
-		c1.consultarSaldo(dni);
+	public void depositar(int monto) {
+		c1.depositar(monto);
 	}
-	public void retirar(int dni, int) {
-		c1.consultarSaldo(dni);
+	public void retirar(int dinero) {
+		c1.retirar(dinero);
 	}
 	
 			
